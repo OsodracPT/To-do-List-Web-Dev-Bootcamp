@@ -17,6 +17,6 @@ $("input[type='text']").keypress(function (event) {
         var todoText = $(this).val();
         $(this).val("");
         //create new li
-        $("ul").append("<li><span>X</span>" + todoText + "</li>")
+        $("ul").append("<li><span><i class='fas fa-trash-alt'></i></span>" + todoText + "</li>")
     }
 });
